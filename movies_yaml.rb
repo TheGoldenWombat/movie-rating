@@ -94,7 +94,7 @@ end
 def error(str)
   system 'clear'
   puts 'Error!'
-  puts str + " is not a valid choice!"
+  puts str +  'is not a valid choice!'
   print 'Hit ENTER to continue'
   gets
 end
